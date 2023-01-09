@@ -30,6 +30,10 @@
     width: 350px;
 }
 
+.w-150 {
+    width: 150px;
+}
+
 .w-10 {
     width: 8px;
 }
@@ -76,4 +80,24 @@ li {
 
 li:hover {
     background-color: #494949;
+}
+
+@media (max-width: 490px){
+    .bg-banner-principal {
+        background-image: url(../images/Banner.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 45%;
+    }
+    .w-divider {
+        width: 75%;
+        margin: 0 auto;
+    }
+    .w-400 {
+        width: 333px;
+    }
+    .p-custom-1 {
+        padding: 0 33%;
+    }
 }
